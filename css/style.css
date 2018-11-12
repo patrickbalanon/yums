@@ -1,0 +1,105 @@
+body {
+	font-family: "Tahoma";
+	
+	
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.main-header {
+	text-align: center;
+	font-family: "Tahoma";
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	list-style: none;
+	padding: 0;
+	
+	
+}
+
+.button:hover {
+	background: #132349;
+}
+
+.button {
+	background: #475472;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	padding: 10px 25px;
+}
+
+
+.showcase {
+	background: url(../images/jj.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom; 20px;
+	padding:400px;
+}
+
+
+.mainarticle {
+	background: #574d0b;
+	margin-bottom: 10px;
+	margin-top:10px;
+	color: white;
+	font-family: "Tahoma";
+}
+
+.articleleft {
+	padding: 10px;
+	background: #ececec;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+#image {
+	margin: 20px;
+	
+}
+
+.insideleftfirst {
+	padding: 0;
+	color: yellow;
+	
+	
+}
+
+.insideleftsecond {
+	padding: 20px;
+	color:black;
+	
+	
+}
+
+
+.footer {
+	background:#475472;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: white;
+	font-family: "Tahoma";
+}
+
+.footer:hover {
+	background:#132349;
+	color: black;
+	
+}
